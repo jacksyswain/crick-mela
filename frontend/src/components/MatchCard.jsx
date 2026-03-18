@@ -54,7 +54,7 @@ function MatchCard({ match }) {
         </p>
       )}
 
-      {/* Buttons */}
+     
       <div className="flex gap-3 mt-4">
 
         {match.streamUrl && (
