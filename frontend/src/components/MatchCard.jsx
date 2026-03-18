@@ -47,7 +47,7 @@ function MatchCard({ match }) {
 
       </div>
 
-      
+      {/* Result if completed */}
       {match.status !== "LIVE" && match.result && (
         <p className="text-sm text-green-600 mt-2">
           {match.result}
